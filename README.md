@@ -57,5 +57,5 @@ Triton Mining Co. follows an **open-source licensing model** (Apache 2.0 / MIT).
 ### 🌟 **Join Us in Shaping the Future of Deep-Sea Exploration!** 🌟  
 Follow our work, contribute, and be part of a **global movement for transparent, responsible, and AI-powered deep-sea research.**  
 
-🔗 **Website:** [TritonMining.com](#) | **Twitter/X:** [@TritonMining](#) | **Discord:** [Join Here](#)  
+🔗 **Website:** [TritonMining.ai](#) | **Twitter/X:** [@TritonMining](#) | **Discord:** [Join Here](#)  
 
