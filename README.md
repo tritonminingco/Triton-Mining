@@ -1,61 +1,106 @@
-# 🌊 Triton-Mining  
+# Triton Mining Co. - Open Source Deep-Sea Exploration
 
-🚀 **Open-Source Deep-Sea Exploration & Mining Initiative**  
-
-Triton Mining Co. is an open-source project dedicated to developing **AI-driven AUVs, seabed mapping tools, and environmental monitoring systems** for responsible deep-sea exploration. This repository serves as the **central hub**, linking to specialized projects that power our mission.
-
----
-
-## 📌 Project Goals  
-✔️ **Develop AI & Robotics** → Improve deep-sea autonomy & navigation.  
-✔️ **Open-Source Marine Data** → Enable public access to oceanic research.  
-✔️ **Enhance Transparency** → Stream exploration & provide real-time insights.  
-✔️ **Sustainable Mining** → Promote responsible deep-sea resource extraction.  
+## 🌊 Welcome to Triton Mining Co.
+**Triton Mining Co.** is an open-source initiative focused on developing cutting-edge deep-sea mining, autonomous robotics, and environmental monitoring technologies. By leveraging open collaboration, we aim to create sustainable and transparent solutions for seabed resource exploration.
 
 ---
 
-## 📂 Repository Structure  
-This repo acts as a **directory** to our core open-source projects:  
+## 📂 Repository Structure
 
-| 🔗 **Project**  | 🚀 **Purpose** |
-|----------------|---------------|
-| [`Triton-AI-Navigation`](#) | AI & machine learning for AUVs/ROVs. |
-| [`SeabedMapper`](#) | Open-source seabed mapping & visualization. |
-| [`OpenMarineData`](#) | Real-time environmental monitoring tools. |
-| [`Triton-Control-Systems`](#) | Hardware & firmware for AUV/ROV control. |
-| [`Triton-Mining-Simulation`](#) | Virtual deep-sea mining environment. |
-
----
-
-## 🛠 How to Contribute  
-We welcome developers, engineers, oceanographers, and researchers to contribute to this initiative.  
-
-### 🔹 Get Started  
-1️⃣ **Fork & Clone the Repo** → `git clone https://github.com/Triton-Mining/Triton-Mining.git`  
-2️⃣ **Explore Open Issues** → Check [`Issues`](#) for tasks that need contributions.  
-3️⃣ **Join the Community** → Connect on **[Discord](#)** & **GitHub Discussions**.  
-4️⃣ **Submit Pull Requests** → Improve AI models, mapping tools & robotics.  
+### 🔹 `Triton-AI-Navigation`
+AI-driven underwater vehicle navigation and object detection.
+```
+/models/                # Pre-trained AI models
+/datasets/              # Open-source oceanographic datasets
+/scripts/               # AI training & validation scripts
+/notebooks/             # Jupyter Notebooks for AI testing
+/api/                   # API for integrating AUV/ROV control systems
+/tests/                 # Unit tests for AI models
+```
+🔹 **Tech Stack:** Python (TensorFlow, PyTorch), ROS, OpenCV  
+🔹 **Contributions:** Improve AI models for seabed mapping & object detection.
 
 ---
 
-## 📖 Documentation  
-Full technical documentation is available in the [`/docs`](#) folder and linked repositories.  
+### 🔹 `SeabedMapper`
+Open-source seabed mapping and resource detection.
+```
+/data/                  # Raw & processed sonar/LiDAR datasets
+/models/                # AI models for seabed feature recognition
+/visualization/         # 3D seafloor mapping tools
+/simulation/            # Virtual seabed environments for testing
+```
+🔹 **Tech Stack:** QGIS, ArcGIS, Docker, C++, Python  
+🔹 **Contributions:** Train AI for seabed detection, develop visualization tools.
 
 ---
 
-## 📺 Live Exploration & Research  
-🌐 **Twitch & YouTube Streams** → Watch real-time AUV tests & coding sessions.  
-📡 **Live Data Dashboard** → Monitor deep-sea environmental conditions.  
+### 🔹 `OpenMarineData`
+Crowdsourced real-time ocean monitoring.
+```
+/datasets/              # Oceanographic datasets (temperature, pH, salinity)
+/sensors/               # Open-source marine sensor integrations
+/dashboard/             # Real-time web dashboard (Django, React)
+/api/                   # REST API for data access
+/tests/                 # Data accuracy unit tests
+```
+🔹 **Tech Stack:** Node.js, GraphQL, Django, Grafana  
+🔹 **Contributions:** Enhance ocean data visualization & analytics.
 
 ---
 
-## 📜 License  
-Triton Mining Co. follows an **open-source licensing model** (Apache 2.0 / MIT). See [`LICENSE.md`](#) for details.  
+### 🔹 `Triton-Control-Systems`
+ROV/AUV hardware & control software.
+```
+/firmware/              # Microcontroller code (Arduino, Raspberry Pi)
+/simulation/            # Software simulations (Gazebo, Webots)
+/hardware/              # Schematics & PCB designs
+/ai-integration/        # AI-assisted control mechanisms
+```
+🔹 **Tech Stack:** C++, Python, ROS, Gazebo  
+🔹 **Contributions:** AI-based autopilot, obstacle avoidance, power management.
 
 ---
 
-### 🌟 **Join Us in Shaping the Future of Deep-Sea Exploration!** 🌟  
-Follow our work, contribute, and be part of a **global movement for transparent, responsible, and AI-powered deep-sea research.**  
+### 🔹 `Triton-Mining-Simulation`
+Virtual testing ground for underwater mining robots.
+```
+/scenarios/             # Simulated underwater environments
+/physics/               # Fluid dynamics & material interaction models
+/ui/                    # Graphical interface for testing
+```
+🔹 **Tech Stack:** Unity, Unreal Engine, Python (OpenAI Gym), Blender  
+🔹 **Contributions:** Improve underwater physics accuracy, train AI mining models.
 
-🔗 **Website:** [TritonMining.ai](#) | **Twitter/X:** [@TritonMining](#) | **Discord:** [Join Here](#)  
+---
 
+## 🚀 How to Get Started
+1️⃣ **Clone the repo:**
+```bash
+git clone https://github.com/TritonMining/Triton-Mining.git
+```
+2️⃣ **Explore our documentation** in `/docs/`.
+3️⃣ **Join the discussion** via [GitHub Discussions](https://github.com/TritonMining/Triton-Mining/discussions) or Discord.
+4️⃣ **Contribute!** Pick an issue, submit a pull request, and collaborate.
+
+---
+
+## 🤝 Contribution Guidelines
+We welcome contributions from developers, researchers, and ocean explorers! Please follow our **[CONTRIBUTING.md](./CONTRIBUTING.md)** guide for details on how to get involved.
+
+---
+
+## 📅 Roadmap
+Check out **[ROADMAP.md](./ROADMAP.md)** for upcoming milestones and planned features.
+
+---
+
+## 📢 Community & Support
+- 💬 **Join our Discord**: [Invite Link]
+- 🐦 **Follow us on Twitter/X**: [@TritonMining]
+- 🎥 **Live coding & exploration on Twitch**: [TritonMiningCo]
+- 📩 **Contact us**: open-source@tritonmining.com
+
+---
+
+🚀 **Triton Mining Co. - Exploring the Abyss with Open-Source Innovation!** 🌊
