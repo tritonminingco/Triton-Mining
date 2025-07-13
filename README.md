@@ -111,6 +111,36 @@ Physics-based virtual environment to test mining AIs.
 
 ---
 
+### 🔹 `SeaLink`
+Autonomous buoy mesh for real-time underwater communication and positioning.
+
+```
+/firmware/     Microcontroller code for buoy logic  
+/network/      Mesh network protocols & routing logic  
+/gps/          Location services & reentry coordination  
+/dataflow/     Data sync layer for AUVs and base station  
+```
+
+**Stack**: LoRa, MQTT, C++, Arduino, GPS, solar charging  
+**Contribute**: Optimize reentry logic, improve data relay in rough seas.
+
+---
+
+### 🔹 `OceanOS`
+A next-generation mapping and classification engine for the ocean floor—like Google Maps for the seabed.
+
+```
+/tiles/        GeoTIFF & raster tiles for rendering  
+/species/      Biome classification models  
+/ecosystems/   Region tagging & ecological metadata  
+/ui/           3D interactive mapping interface  
+```
+
+**Stack**: CesiumJS, Deck.gl, Python, PostGIS  
+**Contribute**: Train species classifiers, improve seabed rendering, build custom explorer tools.
+
+---
+
 ## 🚀 GET STARTED
 
 ```bash
@@ -154,10 +184,10 @@ See [`ROADMAP.md`](./ROADMAP.md) for the latest milestones:
 
 ## 📢 COMMUNITY
 
-- 💬 **Discord**: [Join us](https://discord.gg/your-link)  
+- 💬 **Discord**: [Join us](https://discord.gg/tritonminingco
 - 🐦 **Twitter**: [@TritonMining](https://twitter.com/TritonMining)  
 - 📺 **Twitch**: [Live dev + tests](https://twitch.tv/TritonMiningCo)  
-- 📧 **Email**: tritonminingco@tutamail.com  
+- 📧 **Email**: tritonminingco@tutamail.com
 
 ---
 
