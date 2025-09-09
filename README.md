@@ -39,7 +39,7 @@ An autonomous surface and near-shore monitoring system designed for reef margins
 ---
 
 ### 🌊 `OceanSim` - Digital Ocean Twin
-A real-time simulation and training environment modeling AUV fleets, sediment plumes, and ecological interactions.
+A real-time simulation and training environment modeling AUV fleets, sediment plumes, and ecological interactions powered by NVIDIA Omniverse.
 
 **Key Features:**
 - Virtual ISA zone modeling
@@ -48,10 +48,12 @@ A real-time simulation and training environment modeling AUV fleets, sediment pl
 - Ecological interaction simulation
 - Compliance strategy validation
 - AI model training environment
+- NVIDIA Omniverse integration for photorealistic rendering
+- Real-time physics simulation and data generation
 
-**Tech Stack**: Unity3D, C#, Python, Docker, Physics Engines  
+**Tech Stack**: NVIDIA Omniverse, Unity3D, C#, Python, Docker, Physics Engines  
 **Status**: 🟢 Active Development  
-**Repository**: [TritonMining/OceanSim](https://github.com/TritonMining/OceanSim)
+**Repository**: [TritonMining/oceansim-synthetic-data](https://github.com/tritonminingco/oceansim-synthetic-data)
 
 ---
 
@@ -121,7 +123,7 @@ Our flagship monitoring platform integrating live AUV telemetry and environmenta
 
 **Tech Stack**: React, Django, PostgreSQL, Real-time APIs, GIS  
 **Status**: 🟢 Active Development  
-**Repository**: [TritonMining/DeepSeaGuard](https://github.com/TritonMining/DeepSeaGuard)
+**Repository**: [TritonMining/deepseaguard-console](https://github.com/tritonminingco/deepseaguard-console)
 
 ---
 
@@ -136,10 +138,45 @@ A decentralized ocean communications layer using solar-powered buoys in a mesh n
 - Resilient data connectivity
 - Remote deep-ocean operation
 - Fleet communication backbone
+- Interactive web dashboard for monitoring
 
-**Tech Stack**: LoRa, MQTT, C++, Arduino, GPS, Solar, Mesh Networking  
+**Tech Stack**: LoRa, MQTT, C++, Arduino, GPS, Solar, Mesh Networking, React, Vite  
 **Status**: 🟢 Active Development  
-**Repository**: [TritonMining/SeaLink](https://github.com/TritonMining/SeaLink)
+**Repository**: [TritonMining/sealink-ocean-platform](https://github.com/tritonminingco/sealink-ocean-platform)
+
+---
+
+### 🌐 `SeaLink Nodes` - Buoy Hardware & Firmware
+The hardware and firmware components for SeaLink buoy nodes in the mesh network.
+
+**Key Features:**
+- Microcontroller firmware for buoy logic
+- Sensor integration and data collection
+- Mesh network communication protocols
+- Power management and solar charging
+- Environmental monitoring sensors
+- GPS positioning and data relay
+
+**Tech Stack**: Arduino, C++, LoRa, GPS, Solar Power, Environmental Sensors  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/sealink-node](https://github.com/tritonminingco/sealink-node)
+
+---
+
+### 🚀 `Triton AUV Stack` - Core AUV Software Stack
+The foundational software stack powering all Triton autonomous underwater vehicles.
+
+**Key Features:**
+- Core navigation and control algorithms
+- Sensor fusion and data processing
+- Mission planning and execution
+- Communication protocols
+- Safety and failover systems
+- Hardware abstraction layers
+
+**Tech Stack**: C++, Python, ROS2, OpenCV, Embedded Systems  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/triton-auv-stack](https://github.com/tritonminingco/triton-auv-stack.git)
 
 ---
 
@@ -181,7 +218,7 @@ Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) to learn how to get involved.
 See [`ROADMAP.md`](./ROADMAP.md) for our development phases and strategic goals.
 
 **Current Focus**: 
-- 🟢 **Active Development**: All core systems (Shellby, OceanSim, OceanOS, AUV Luna, CrabBots, DeepSeaGuard, SeaLink)
+- 🟢 **Active Development**: All core systems (Shellby, OceanSim, OceanOS, AUV Luna, CrabBots, DeepSeaGuard, SeaLink Platform, SeaLink Nodes, Triton AUV Stack)
 - 🔜 **Planned**: Advanced AI systems, renewable energy integration, expanded ISA compliance tools
 
 ---
@@ -196,7 +233,9 @@ See [`ROADMAP.md`](./ROADMAP.md) for our development phases and strategic goals.
 | AUV Luna | 🟢 Active | Recent | 10+ |
 | CrabBots | 🟢 Active | Recent | 9+ |
 | DeepSeaGuard | 🟢 Active | Recent | 18+ |
-| SeaLink | 🟢 Active | Recent | 7+ |
+| SeaLink Platform | 🟢 Active | Recent | 7+ |
+| SeaLink Nodes | 🟢 Active | Recent | 5+ |
+| Triton AUV Stack | 🟢 Active | Recent | 12+ |
 
 ---
 
