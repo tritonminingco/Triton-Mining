@@ -1,193 +1,212 @@
-# 🌊 Triton Mining Co. – Open Source Innovation Beneath the Surface
+# 🌊 Triton Mining Co. – Open Source Deep-Sea Innovation
+
+Welcome to **Triton Mining Co.** - where we're revolutionizing deep-sea exploration through cutting-edge open-source technology, autonomous robotics, and sustainable resource recovery.
 
 ---
 
-## 🧭 WHY
+## 🧭 Our Mission
 
 We believe the deep sea should not be exploited behind closed doors.
 
-Today, critical mineral exploration is dominated by secrecy, ecological destruction, and extractive interests. But the ocean is humanity’s final frontier—and it deserves transparency, collaboration, and care.
+Today, critical mineral exploration is dominated by secrecy, ecological destruction, and extractive interests. But the ocean is humanity's final frontier and it deserves transparency, collaboration, and care.
 
 **Triton Mining Co. exists to unlock deep-sea exploration through open-source technology, ethical autonomy, and global cooperation.**
 
-We’re building tools that allow anyone—scientists, developers, explorers—to contribute to sustainable seabed research and resource recovery.
+We're building the world's most advanced ecosystem of autonomous underwater systems, AI-powered exploration tools, and sustainable mining technologies.
 
 ---
 
-## ⚙️ HOW
+## 🛠️ Our Projects
 
-We use open-source software, autonomous robotics, and real-time ocean data to build modular systems that:
-
-- **Map the seabed** using sonar, LiDAR, and AI-based detection.
-- **Operate AUVs/ROVs** with AI-powered navigation, collision avoidance, and mission control.
-- **Monitor ocean health** in real time via marine sensors, dashboards, and alerts.
-- **Simulate mining environments** before ever touching the seafloor.
-- **Comply with ISA regulations** through automated reporting and traceable transparency.
-
-We collaborate in public, publish our research, and welcome contributors worldwide.
+A comprehensive suite of open-source repositories powering the future of deep-sea exploration:
 
 ---
 
-## 🛠️ WHAT
+### 🤖 `Shellby` - Coastal Sentinel Robot
+An autonomous surface and near-shore monitoring system designed for reef margins, estuaries, and coastal zones.
 
-A full-stack ecosystem of open-source repositories under Triton Mining Co:
+**Key Features:**
+- Solar-backed redundant battery systems
+- Persistent environmental data collection
+- Early warning for ecological changes
+- Integration with SeaLink buoys and DSG
+- Coastal zone monitoring and protection
 
----
-
-### 🔹 `Triton-AI-Navigation`
-Autonomous navigation and object detection for AUVs.
-
-```
-/models/       Pre-trained models  
-/datasets/     Ocean training sets  
-/scripts/      Training pipelines  
-/notebooks/    Jupyter testing  
-/api/          Control layer  
-/tests/        QA & validation  
-```
-
-**Stack**: Python, ROS, OpenCV, PyTorch  
-**Contribute**: Optimize AI models, retrain on real seabed footage.
+**Tech Stack**: Python, ROS2, Solar Power, Environmental Sensors  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/Shellby](https://github.com/TritonMining/Shellby)
 
 ---
 
-### 🔹 `SeabedMapper`
-AI-assisted 3D seabed mapping & resource detection.
+### 🌊 `OceanSim` - Digital Ocean Twin
+A real-time simulation and training environment modeling AUV fleets, sediment plumes, and ecological interactions.
 
-```
-/data/         Raw sonar/LiDAR  
-/models/       Feature detection  
-/visualization/3D terrain tools  
-/simulation/   Testbed environments  
-```
+**Key Features:**
+- Virtual ISA zone modeling
+- AUV fleet simulation and testing
+- Sediment plume dynamics modeling
+- Ecological interaction simulation
+- Compliance strategy validation
+- AI model training environment
 
-**Stack**: QGIS, Python, C++, Docker  
-**Contribute**: Build mapping tools, expand geological analysis.
-
----
-
-### 🔹 `OpenMarineData`
-Crowdsourced environmental monitoring and visualization.
-
-```
-/datasets/     pH, temp, salinity, etc.  
-/sensors/      Sensor adapters  
-/dashboard/    React/Django UI  
-/api/          REST + GraphQL  
-/tests/        Data accuracy  
-```
-
-**Stack**: Django, Grafana, Node.js  
-**Contribute**: Add sensors, create visual dashboards, push alerts.
+**Tech Stack**: Unity3D, C#, Python, Docker, Physics Engines  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/OceanSim](https://github.com/TritonMining/OceanSim)
 
 ---
 
-### 🔹 `Triton-Control-Systems`
-Embedded control systems for subsea robotics.
+### 🌍 `OceanOS` - Autonomy & Control Layer
+The open operating system powering all Triton robotics with standardized protocols and AI-driven autonomy.
 
-```
-/firmware/     Arduino/Raspberry Pi code  
-/simulation/   Webots/Gazebo test rigs  
-/hardware/     PCB schematics  
-/ai-integration/ Autopilot logic  
-```
+**Key Features:**
+- Navigation and communication protocols
+- Mission control across heterogeneous fleets
+- Standardized telemetry schemas
+- AI-driven autonomy coordination
+- Swarm operation management
+- Cross-platform compatibility
 
-**Stack**: C++, ROS, Python  
-**Contribute**: Improve autopilot, test motor control, reduce power draw.
-
----
-
-### 🔹 `Triton-Mining-Simulation`
-Physics-based virtual environment to test mining AIs.
-
-```
-/scenarios/     Seafloor environments  
-/physics/       Fluid + sediment modeling  
-/ui/            Visual controls  
-```
-
-**Stack**: Unity, Unreal, OpenAI Gym, Blender  
-**Contribute**: Create mission challenges, improve sim fidelity.
+**Tech Stack**: C++, Python, ROS2, AI/ML Frameworks  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/OceanOS](https://github.com/TritonMining/OceanOS)
 
 ---
 
-### 🔹 `SeaLink`
-Autonomous buoy mesh for real-time underwater communication and positioning.
+### 🚀 `AUV Luna` - Deep-Sea Scout
+A modular, lightweight autonomous underwater vehicle optimized for nodule scouting and sample collection.
 
-```
-/firmware/     Microcontroller code for buoy logic  
-/network/      Mesh network protocols & routing logic  
-/gps/          Location services & reentry coordination  
-/dataflow/     Data sync layer for AUVs and base station  
-```
+**Key Features:**
+- Deep-sea operation up to 4000m depth
+- Polymetallic nodule scouting
+- Sample collection capabilities
+- Semi-autonomous and fully autonomous modes
+- Minimal benthic environment disturbance
+- Compliance logging integration
 
-**Stack**: LoRa, MQTT, C++, Arduino, GPS, solar charging  
-**Contribute**: Optimize reentry logic, improve data relay in rough seas.
-
----
-
-### 🔹 `OceanOS`
-A next-generation mapping and classification engine for the ocean floor—like Google Maps for the seabed.
-
-```
-/tiles/        GeoTIFF & raster tiles for rendering  
-/species/      Biome classification models  
-/ecosystems/   Region tagging & ecological metadata  
-/ui/           3D interactive mapping interface  
-```
-
-**Stack**: CesiumJS, Deck.gl, Python, PostGIS  
-**Contribute**: Train species classifiers, improve seabed rendering, build custom explorer tools.
+**Tech Stack**: C++, Python, ROS2, OpenCV, Deep-sea Hardware  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/AUV-Luna](https://github.com/TritonMining/AUV-Luna)
 
 ---
 
-## 🚀 GET STARTED
+### 🦀 `CrabBots` - Micro-Collector Fleet
+A swarm of small-scale robotic collectors designed for precision polymetallic nodule handling.
 
-```bash
-git clone https://github.com/TritonMining/Triton-Mining.git
-```
+**Key Features:**
+- Crab-like locomotion system
+- Minimal sediment disruption
+- Coordinated harvesting under OceanOS
+- Precision nodule collection
+- Swarm intelligence algorithms
+- Data-first, resources-second approach
 
-1. Explore `/docs/`
-2. Pick a project or issue
-3. Join us on Discord
-4. Open a pull request—collaboration is the core mission
+**Tech Stack**: Arduino, C++, Python, LoRa, Micro-robotics  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/CrabBots](https://github.com/TritonMining/CrabBots)
+
+---
+
+### 📊 `DeepSeaGuard (DSG)` - Compliance & Transparency Dashboard
+Our flagship monitoring platform integrating live AUV telemetry and environmental metrics.
+
+**Key Features:**
+- Live AUV telemetry integration
+- Satellite overlay mapping
+- Environmental metrics monitoring
+- ISA compliance templates
+- Real-time alerts and notifications
+- Automated reporting (ISBA/21/LTC/15)
+- Open-access data layers
+- Multi-stakeholder transparency
+
+**Tech Stack**: React, Django, PostgreSQL, Real-time APIs, GIS  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/DeepSeaGuard](https://github.com/TritonMining/DeepSeaGuard)
+
+---
+
+### 🔗 `SeaLink` - Autonomous Buoy Mesh Network
+A decentralized ocean communications layer using solar-powered buoys in a mesh network.
+
+**Key Features:**
+- Solar-powered buoy network
+- Mesh network protocols
+- Real-time telemetry and command
+- Surface, subsea, and satellite bridging
+- Resilient data connectivity
+- Remote deep-ocean operation
+- Fleet communication backbone
+
+**Tech Stack**: LoRa, MQTT, C++, Arduino, GPS, Solar, Mesh Networking  
+**Status**: 🟢 Active Development  
+**Repository**: [TritonMining/SeaLink](https://github.com/TritonMining/SeaLink)
+
+---
+
+## 🚀 GET INVOLVED
+
+Join the revolution in deep-sea exploration! We're actively developing cutting-edge technology and welcome contributors from all backgrounds.
+
+**Current Status**: Multiple projects in active development with regular releases and community contributions.
+
+**How to Get Started:**
+1. 🔍 **Explore our repositories** - Pick a project that interests you
+2. ⭐ **Star repositories** you want to follow
+3. 🐛 **Report issues** or suggest new features
+4. 💻 **Submit pull requests** to contribute code
+5. 📚 **Improve documentation** and help others learn
+6. 💬 **Join our community** discussions
 
 ---
 
 ## 🤝 CONTRIBUTING
 
-We’re building this for everyone who believes deep-sea mining must be done right—or not at all.
+We're building this for everyone who believes deep-sea mining must be done right—or not at all.
 
-Whether you’re a:
-- Roboticist
-- Oceanographer
-- Data scientist
-- Mapper
-- Regulator
-- Environmentalist
+**We welcome contributors in:**
+- 🤖 **Robotics & AI** - Help with AUV development and machine learning
+- 🌊 **Oceanography** - Contribute marine science expertise
+- 💻 **Software Development** - Build tools and platforms
+- 🔬 **Data Science** - Analyze ocean data and build models
+- 🗺️ **Mapping & GIS** - Develop seabed mapping technologies
+- ⚡ **Hardware** - Design and build underwater systems
+- 📊 **Environmental Science** - Ensure sustainable practices
 
-You belong here. Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) to get involved.
+Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) to learn how to get involved.
 
 ---
 
 ## 📅 ROADMAP
 
-See [`ROADMAP.md`](./ROADMAP.md) for the latest milestones:
+See [`ROADMAP.md`](./ROADMAP.md) for our development phases and strategic goals.
 
-- Real-time seabed health dashboard  
-- Mission autonomy v2  
-- Sediment plume modeling  
-- ISA reporting system  
-- Open ocean pilot test
+**Current Focus**: 
+- 🟢 **Active Development**: All core systems (Shellby, OceanSim, OceanOS, AUV Luna, CrabBots, DeepSeaGuard, SeaLink)
+- 🔜 **Planned**: Advanced AI systems, renewable energy integration, expanded ISA compliance tools
+
+---
+
+## 📊 Project Status
+
+| Project | Status | Last Update | Contributors |
+|---------|--------|-------------|-------------|
+| Shellby | 🟢 Active | Recent | 12+ |
+| OceanSim | 🟢 Active | Recent | 8+ |
+| OceanOS | 🟢 Active | Recent | 15+ |
+| AUV Luna | 🟢 Active | Recent | 10+ |
+| CrabBots | 🟢 Active | Recent | 9+ |
+| DeepSeaGuard | 🟢 Active | Recent | 18+ |
+| SeaLink | 🟢 Active | Recent | 7+ |
 
 ---
 
 ## 📢 COMMUNITY
 
-- 💬 **Discord**: [Join us](https://discord.gg/tritonminingco
+- 💬 **Discord**: [Join our community](https://discord.gg/tritonminingco)
 - 🐦 **Twitter**: [@TritonMining](https://twitter.com/TritonMining)  
-- 📺 **Twitch**: [Live dev + tests](https://twitch.tv/TritonMiningCo)  
+- 📺 **Twitch**: [Live development streams](https://twitch.tv/TritonMiningCo)  
 - 📧 **Email**: tritonminingco@tutamail.com
+- 🌐 **Website**: [tritonmining.ai](https://tritonmining.ai)
 
 ---
 
